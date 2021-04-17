@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home | Jokes with Python</title>
+
+	<style type="text/css">
+		body{
+			background: #00f;
+			margin: 10%;
+		}
+		div{
+			opacity: 0.7;
+			padding: 2%;
+			color: #fff;
+			background-color: #173459;
+			border: dashed;
+			border-radius: 10px;
+			text-align: center;
+		}
+
+		h3{
+			font-size: 40px;
+			text-align: center;
+			color: #fff;
+			text-decoration-line: underline;
+
+		}
+		p{
+			font-weight: 100;
+			font-style: normal;
+			font-family: monospace;
+			font-size: 30px;
+			color: #fff;
+		}
+		button{
+			background-color: #000;
+			border-radius: 5px;
+			size: 20px;
+			transition-duration: 5s;
+		}
+		a{
+			text-decoration: none;
+			font-size: 25px;
+			color: #fff;
+			font-family: monospace;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<h3 class="topic">jokes</h3>
+
+		<p class="funny">{{ joke }}</p>
+
+		<button>
+			<a href="{% url 'home' %}">Next</a>
+		</button>
+
+	</div>
+</body>
+</html>

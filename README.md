@@ -1,1 +1,1 @@
-# simple-joke-app
+# simple-joke-app with django and the pyjokes module![Screenshot_2021-04-17 Home Jokes with Python](https://user-images.githubusercontent.com/42345181/115122167-2a566c00-9f7c-11eb-8d56-1c4b20dd1f33.png)
